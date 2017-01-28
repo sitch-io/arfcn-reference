@@ -27,14 +27,22 @@ pip install arfcnreference
 Usage:
 ______
 
-Get a channel by uplink frequency:
+Get channel metadata by ARFCN:
 
 ::
 
     >>> import arfcnreference
     >>> arf_ref = arfcnreference.ArfcnReference()
+    >>> arf_ref.get_for_channel(665)
+    {'band': 'GSM-1900', 'downlink': 1960.8, 'uplink': 1880.8}
+
+Get a channel by uplink frequency:
+
+::
+
     >>> arf_ref.get_for_uplink(890.2)
     {'band': 'GSM-900', 'downlink': 935.2, 'channel': 1}
+    
     >>> arf_ref.get_for_downlink(887.4)
     {'band': 'EGSM-900', 'uplink': 887.4, 'channel': 1011}
 
