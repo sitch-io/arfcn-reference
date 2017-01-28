@@ -1,6 +1,19 @@
 arfcnreference
 ---------------
 
+.. image:: https://travis-ci.org/sitch-io/arfcn-reference.svg?branch=master
+    :target: https://travis-ci.org/sitch-io/arfcn-reference
+.. image:: https://codeclimate.com/github/sitch-io/arfcn-reference/badges/coverage.svg
+    :target: https://codeclimate.com/github/sitch-io/arfcn-reference/coverage
+    :alt: Test Coverage
+.. image:: https://codeclimate.com/github/sitch-io/arfcn-reference/badges/gpa.svg
+   :target: https://codeclimate.com/github/sitch-io/arfcn-reference
+   :alt: Code Climate
+.. image:: https://codeclimate.com/github/sitch-io/arfcn-reference/badges/issue_count.svg
+   :target: https://codeclimate.com/github/sitch-io/arfcn-reference
+   :alt: Issue Count
+
+
 ARFCN reference Python module
 =============================
 
