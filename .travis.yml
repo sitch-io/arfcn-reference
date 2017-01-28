@@ -2,7 +2,8 @@ language: python
 sudo: required
 python:
 - '2.7'
-install: 
+install:
+  - - pip install pytest-cov codeclimate-test-reporter
 script: py.test --cov arfcnreference
 after_success:
 - codeclimate-test-reporter --token $CODECLIMATE_REPO_TOKEN
