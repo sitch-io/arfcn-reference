@@ -3,7 +3,7 @@ sudo: required
 python:
 - '2.7'
 install:
-  - apt-get update && apt-get install python-pip
+  - sudo apt-get update && sudo apt-get install python-pip
   - pip install pytest-cov codeclimate-test-reporter
 script: py.test --cov arfcnreference
 after_success:
