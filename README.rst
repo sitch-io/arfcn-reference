@@ -67,4 +67,4 @@ run `py.test` from the root of this repo.
 Special thanks:
 _______________
 
-This was lifted, with gratitude, from http://gnuradio.org/redmine/attachments/115/all_gsm_channels_arfcn.txt
+The reference information was lifted, with gratitude, from http://gnuradio.org/redmine/attachments/115/all_gsm_channels_arfcn.txt

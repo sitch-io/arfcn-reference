@@ -1,5 +1,9 @@
 from reference_obj import reference
 
+
+__author__ = "Ash Wilson"
+__version__ = "0.1"
+
 class ArfcnReference(object):
     def __init__(self):
         self.arfcn_channel = reference
